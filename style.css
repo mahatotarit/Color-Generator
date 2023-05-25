@@ -1,0 +1,32 @@
+*{
+    padding: 00px;
+    margin: 00px;
+    box-sizing: border-box;
+}
+body{
+    transition: 2s;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.container button{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+}
